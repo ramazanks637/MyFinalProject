@@ -14,7 +14,7 @@ namespace DataAccess.Concrete.EntityFramework
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=RAMAZANKOSE;Database=Northwind;Trusted_Connection=True");
+            optionsBuilder.UseSqlServer(@"Server=RAMAZANKOSE;Database=Northwind;Trusted_Connection=True"); 
         }
 
         // Product nesnesi veritabanındaki Products tablosu ile bağla ilişkilendir
